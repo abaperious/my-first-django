@@ -29,7 +29,8 @@ ALLOWED_HOSTS = [	'192.168.55.103',
 			'192.168.55.102',
 			'192.168.55.101', 
 			'localhost',
-			'0.0.0.0']
+			'0.0.0.0',
+            'maciuszklanu.pythonanywhere.com' ]
 
 
 # Application definition
