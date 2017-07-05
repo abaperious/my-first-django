@@ -10,3 +10,6 @@ class HomePageView(TemplateView):
 # Add this view
 class AboutPageView(TemplateView):
     template_name = "about.html"
+
+def post_list(request):
+    return render(request, 'howdy/post_list.html', {})
